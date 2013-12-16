@@ -1,8 +1,8 @@
 ---
 applications:
-- name: yakit
+- name: yaktastic
   memory: 128M
   instances: 1
-  host: yakit-${random-word}
+  host: yaktastic-${random-word}
   domain: cfapps.io
   path: .

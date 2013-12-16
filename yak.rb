@@ -12,6 +12,6 @@ class YakApp < Sinatra::Base
       end
       %Q{<iframe title="YouTube video player" width="560" height="315" src="http://www.youtube.com/embed/#{ youtube_id }" frameborder="0" allowfullscreen></iframe>}
     end
-    "<h1>Bacon Pancakes from Cloud Foundry</h1>"+youtube_embed('youtu.be/zalYJacOhpo')
+    "<h1>Bacon Pancakes from Cloud Foundry</h1>"+youtube_embed('youtu.be/bt567Wf9gOw')
   end
 end
